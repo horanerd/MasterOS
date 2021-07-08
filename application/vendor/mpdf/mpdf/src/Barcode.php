@@ -30,10 +30,10 @@ class Barcode
 			case 'ISBN':
 			case 'ISSN':
 			case 'EAN13': // EAN 13
-				return new Barcode\EanUpc($code, 14, 11, 7, 0.33, 25.93);
+				return new Barcode\EanUpc($code, 13, 11, 7, 0.33, 25.93);
 
 			case 'UPCA': // UPC-A
-				return new Barcode\EanUpc($code, 14, 9, 9, 0.45, 18);
+				return new Barcode\EanUpc($code, 12, 9, 9, 0.33, 25.91);
 
 			case 'UPCE': // UPC-E
 				return new Barcode\EanUpc($code, 6, 9, 7, 0.33, 25.93);

@@ -38,7 +38,7 @@ $config['app_subname'] = 'Sistema de Gestão e controle de Estoque, Vendas, Orde
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'enter_baseurl';
+$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------
